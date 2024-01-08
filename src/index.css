@@ -1,3 +1,7 @@
+/* body {
+  background: yellow;
+} */
+
 #hero {
   position: relative;
   text-align: center;
@@ -13,15 +17,23 @@
   font-size: 3em;
 }
 
-nav {
+/* nav {
   display: none;
-}
+} */
 
-img {
+/* img {
   width: 100px;
-}
+} */
 
 form {
   padding: 1em;
   padding-bottom: 2em;
+  color: blue;
+  font-size: 20px;
 }
+
+.card-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+ }
